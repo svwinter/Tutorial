@@ -3,6 +3,8 @@
 #import "Character.h"
 #import "Guild.h"
 
+// comment
+
 @implementation WoWApiClient
 
 static dispatch_once_t oncePredicate;
