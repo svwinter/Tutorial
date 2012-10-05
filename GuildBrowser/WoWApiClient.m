@@ -18,7 +18,7 @@ static dispatch_once_t oncePredicate;
         _sharedClient = [[self alloc] initWithBaseURL:[NSURL URLWithString:@"http://us.battle.net"]];
     });
     
-    return _sharedClient;
+    return _sharedClient
 }
 
 - (id)initWithBaseURL:(NSURL *)url
